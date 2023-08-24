@@ -1,0 +1,16 @@
+CREATE TABLE trip_data_202107 (
+	ride_id VARCHAR(50),
+	rideable_type VARCHAR(50),
+	started_at DATETIME,
+	ended_at DATETIME,
+	start_station_name VARCHAR(100),
+	start_station_id VARCHAR(100),
+	end_station_name VARCHAR(100),
+	end_station_id VARCHAR(100),
+	start_lat DOUBLE,
+	start_lng DOUBLE,
+	end_lat DOUBLE,
+	end_lng DOUBLE,
+	member_casual VARCHAR(10),
+	PRIMARY KEY(ride_id)
+);
